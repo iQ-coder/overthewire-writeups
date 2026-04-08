@@ -1,0 +1,18 @@
+# Bandit Level 2→ 3
+
+## Objective
+The password for the next level is stored in a file called --spaces in this filename-- located in the home directory
+
+## Connection
+ssh bandit2@bandit.labs.overthewire.org -p 2220
+
+## Solution
+ls
+cat './--spaces in this filename--'
+
+## Password Found
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+
+## What I Learned
+this was tricky at first because of the obvious -- but once I knew I should use quotation to escape it became obvious 
