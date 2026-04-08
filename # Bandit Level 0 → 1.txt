@@ -1,0 +1,19 @@
+# Bandit Level 0 → 1
+
+## Objective
+Log into the game and find the password stored in a file called readme.
+
+## Connection
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+## Solution
+ls
+cat readme
+
+## Password Found
+ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+
+## What I Learned
+- ssh syntax with custom port using -p flag
+- ls to list files, cat to read them
