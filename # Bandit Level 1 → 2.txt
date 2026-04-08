@@ -1,0 +1,20 @@
+# Bandit Level 1→ 2
+
+## Objective
+The password for the next level is stored in a file called - located in the home directory
+
+## Connection
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+
+## Solution
+ls
+cat./ readme
+
+## Password Found
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+
+
+## What I Learned
+at first I thought cat - would be the solution but apparently it wasn't because the terminal reads - as a flag so It wouldn't work so . means in this current directory and / is the path separator 
+so ./filename means "this file located in this current directory" 
