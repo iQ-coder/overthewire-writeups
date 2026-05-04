@@ -1,0 +1,22 @@
+# Bandit Level 6→ 7
+
+## Objective
+ 
+The password for the next level is stored somewhere on the server and has all of the following properties:
+
+owned by user bandit7
+owned by group bandit6
+33 bytes in size
+
+## Connection
+ssh bandit7@bandit.labs.overthewire.org -p 2220
+
+## Solution
+ find / -type f -user bandit7 -group bandit6 -size 33c
+## Password Found
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+
+## What I Learned
+
+using different flags with the find command to filter results while looking for something specific and more flag usage with the "find command"
